@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigContainer xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/PKSoft">
+  <Controller>
+    <AskForExceptionDetails>false</AskForExceptionDetails>
+    <ConnFormColumnWidths xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <ConnFormShowBlocked>false</ConnFormShowBlocked>
+    <ConnFormShowConnections>true</ConnFormShowConnections>
+    <ConnFormShowOpenPorts>false</ConnFormShowOpenPorts>
+    <ConnFormWindowLoc xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+      <d3p1:x>0</d3p1:x>
+      <d3p1:y>0</d3p1:y>
+    </ConnFormWindowLoc>
+    <ConnFormWindowSize xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+      <d3p1:height>0</d3p1:height>
+      <d3p1:width>0</d3p1:width>
+    </ConnFormWindowSize>
+    <ConnFormWindowState>Normal</ConnFormWindowState>
+    <EnableGlobalHotkeys>false</EnableGlobalHotkeys>
+    <Language>auto</Language>
+    <ProcessesFormColumnWidths xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <ProcessesFormWindowLoc xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+      <d3p1:x>0</d3p1:x>
+      <d3p1:y>0</d3p1:y>
+    </ProcessesFormWindowLoc>
+    <ProcessesFormWindowSize xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+      <d3p1:height>0</d3p1:height>
+      <d3p1:width>0</d3p1:width>
+    </ProcessesFormWindowSize>
+    <ProcessesFormWindowState>Normal</ProcessesFormWindowState>
+    <ServicesFormColumnWidths xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <ServicesFormWindowLoc xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+      <d3p1:x>0</d3p1:x>
+      <d3p1:y>0</d3p1:y>
+    </ServicesFormWindowLoc>
+    <ServicesFormWindowSize xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+      <d3p1:height>0</d3p1:height>
+      <d3p1:width>0</d3p1:width>
+    </ServicesFormWindowSize>
+    <ServicesFormWindowState>Normal</ServicesFormWindowState>
+    <SettingsFormAppListColumnWidths xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+      <d3p1:KeyValueOfstringint>
+        <d3p1:Key>colApplication</d3p1:Key>
+        <d3p1:Value>132</d3p1:Value>
+      </d3p1:KeyValueOfstringint>
+      <d3p1:KeyValueOfstringint>
+        <d3p1:Key>colType</d3p1:Key>
+        <d3p1:Value>102</d3p1:Value>
+      </d3p1:KeyValueOfstringint>
+      <d3p1:KeyValueOfstringint>
+        <d3p1:Key>colDetails</d3p1:Key>
+        <d3p1:Value>356</d3p1:Value>
+      </d3p1:KeyValueOfstringint>
+    </SettingsFormAppListColumnWidths>
+    <SettingsFormWindowLoc xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+      <d3p1:x>156</d3p1:x>
+      <d3p1:y>156</d3p1:y>
+    </SettingsFormWindowLoc>
+    <SettingsFormWindowSize xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+      <d3p1:height>477</d3p1:height>
+      <d3p1:width>764</d3p1:width>
+    </SettingsFormWindowSize>
+    <SettingsTabIndex>2</SettingsTabIndex>
+    <UwpPackagesFormColumnWidths xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <UwpPackagesFormWindowLoc xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+      <d3p1:x>0</d3p1:x>
+      <d3p1:y>0</d3p1:y>
+    </UwpPackagesFormWindowLoc>
+    <UwpPackagesFormWindowSize xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Drawing">
+      <d3p1:height>0</d3p1:height>
+      <d3p1:width>0</d3p1:width>
+    </UwpPackagesFormWindowSize>
+    <UwpPackagesFormWindowState>Normal</UwpPackagesFormWindowState>
+  </Controller>
+  <Service xmlns:d2p1="TinyWall">
+    <d2p1:ActiveProfileName>Default</d2p1:ActiveProfileName>
+    <d2p1:Blocklists>
+      <d2p1:EnableBlocklists>true</d2p1:EnableBlocklists>
+      <d2p1:EnableHostsBlocklist>true</d2p1:EnableHostsBlocklist>
+      <d2p1:EnablePortBlocklist>true</d2p1:EnablePortBlocklist>
+    </d2p1:Blocklists>
+    <d2p1:LockHostsFile>true</d2p1:LockHostsFile>
+    <d2p1:Profiles>
+      <d2p1:ServerProfileConfiguration>
+        <d2p1:AppExceptions>
+          <d2p1:FirewallExceptionV3>
+            <d2p1:CreationDate>2023-03-23T11:05:01.7525003+05:30</d2p1:CreationDate>
+            <d2p1:Id>c6e6a157-3537-438d-a3e3-dd5f0b8c0024</d2p1:Id>
+            <d2p1:Policy i:type="d2p1:TcpUdpPolicy">
+              <d2p1:AllowedLocalTcpListenerPorts>*</d2p1:AllowedLocalTcpListenerPorts>
+              <d2p1:AllowedLocalUdpListenerPorts>*</d2p1:AllowedLocalUdpListenerPorts>
+              <d2p1:AllowedRemoteTcpConnectPorts>*</d2p1:AllowedRemoteTcpConnectPorts>
+              <d2p1:AllowedRemoteUdpConnectPorts>*</d2p1:AllowedRemoteUdpConnectPorts>
+            </d2p1:Policy>
+            <d2p1:Subject i:type="d2p1:ExecutableSubject">
+              <d2p1:ExecutablePath>C:\Program Files (x86)\HP Inc\Client_Setup_Encrypt_New_2023\ClientExePro.exe</d2p1:ExecutablePath>
+            </d2p1:Subject>
+          </d2p1:FirewallExceptionV3>
+        </d2p1:AppExceptions>
+        <d2p1:ProfileName>Default</d2p1:ProfileName>
+        <d2p1:SpecialExceptions xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:string>Filtered_ICMP_Traffic</d5p1:string>
+          <d5p1:string>Pingable_local_machine</d5p1:string>
+        </d2p1:SpecialExceptions>
+      </d2p1:ServerProfileConfiguration>
+    </d2p1:Profiles>
+  </Service>
+</ConfigContainer>

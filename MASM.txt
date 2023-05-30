@@ -1,0 +1,17 @@
+How to Use MASM
+
+Open DOS Box
+Now we need to mount tasm folder in DOSBox as given below;
+Type Following Command:
+
+mount c c://MASM
+
+Now change current drive to C as
+c://
+
+To list the files type
+dir
+
+Now you can use dos commands and masm related commands.
+
+To go to full screen press alt+enter.
